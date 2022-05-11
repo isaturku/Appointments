@@ -1,0 +1,207 @@
+h1 {
+  text-align: center !important;
+  margin-bottom: 5rem !important;
+}
+
+.termin {
+  height: 10rem;
+  margin: 2rem auto;
+  background-color: rebeccapurple;
+  border-radius: 1rem;
+  position: relative;
+  box-shadow: 0 0 15px rebeccapurple;
+}
+@media only screen and (max-width: 375px) {
+  .termin {
+    width: 100%;
+    height: 25rem;
+  }
+  #neu-termin-button {
+    right: 0.25rem;
+    bottom: 0.25rem;
+  }
+  .termin-actions {
+    flex-direction: column;
+  }
+  .termin-actions button {
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 600px) {
+  .termin {
+    width: 95%;
+    height: 25rem;
+  }
+  #neu-termin-button {
+    right: 1rem;
+    bottom: 1rem;
+  }
+  .termin-actions {
+    flex-direction: column;
+  }
+  .termin-actions button {
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .termin {
+    width: 80%;
+    height: 20rem;
+  }
+  #neu-termin-button {
+    right: 1rem;
+    bottom: 1rem;
+  }
+  .termin-actions {
+    flex-direction: column;
+  }
+  .termin-actions button {
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .termin {
+    width: 75%;
+  }
+  #neu-termin-button {
+    right: 1.5rem;
+    bottom: 1.5rem;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .termin {
+    width: 70%;
+  }
+  #neu-termin-button {
+    right: 3rem;
+    bottom: 3rem;
+  }
+}
+.termin-title {
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+  color: white;
+}
+.termin-desc {
+  position: absolute;
+  top: 2.5rem;
+  left: 1rem;
+  width: 70%;
+  color: #f0f0f0;
+}
+.termin-date {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  color: #f0f0f0;
+}
+.termin-creator {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1rem;
+  color: #f0f0f0;
+}
+.termin-location {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 1rem;
+  color: #f0f0f0;
+}
+.vote-button {
+  position: absolute;
+  bottom: 0.5rem;
+  width: fit-content;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.action-button {
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  background-color: #998033;
+  border: none;
+  color: white;
+  border-radius: 0.5rem;
+  display: flex;
+}
+.action-button * {
+  margin: 0 0.5rem;
+}
+.action-button:hover {
+  background-color: #b9a053;
+}
+.secondary-button {
+  background-color: rebeccapurple !important;
+}
+.secondary-button:hover {
+  background-color: #8653b9 !important;
+}
+#neu-termin-button {
+  position: fixed;
+  background-color: #998033;
+  color: white;
+  border: none;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+  font-size: xx-large;
+  font-weight: bold;
+  box-shadow: 5px 5px 7px #998033;
+  vertical-align: middle;
+}
+#neu-termin-button:hover {
+  background-color: #b9a053;
+}
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+.option {
+  width: 7rem;
+  height: 7rem;
+  background-color: rebeccapurple;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  padding: 1rem;
+}
+.vote-form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  border-radius: 0.5rem;
+  background-color: rebeccapurple;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  margin-bottom: 2rem !important;
+}
+.termin-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0.5rem;
+  width: fit-content;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.termin-actions button {
+  margin-right: 1rem;
+}
+.delete-button {
+  background-color: #d00000 !important;
+}
+table {
+  width: 95%;
+  margin: auto;
+  table-layout: auto;
+}
